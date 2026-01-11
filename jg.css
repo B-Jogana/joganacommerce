@@ -80,8 +80,6 @@ body{
     background-color: blue;
     color: beige;
 }
-
-
 .content-1 h2{
     padding: 20px 20px;
 
@@ -99,7 +97,6 @@ body{
     border-radius: 5px;
     padding: 3px 10px;
     font-weight: bolder;
-    height: 40px;
 }
 
 .form button:hover{
@@ -115,8 +112,7 @@ body{
     border-radius: 5px;
     padding: 3px 10px;
     font-weight: bolder;
-    width: 30vw;
-    font-size: 35px;
+    width: 65vw;
 }
 
 /**section 2**/
@@ -174,11 +170,14 @@ body{
 
 #paragraph{
     display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
 }
 .paragraph{
     border: 2px solid #fff;
     width: 49%;
-    height: 255px;
+    height: auto;
     
 
     color: #fff;
@@ -266,11 +265,6 @@ input[type="radio"]{
 .container-1 input[type="radio"]:checked + label::after{
     transform: rotate(190deg);
 }
-
-
-
-
-
 
 
 
