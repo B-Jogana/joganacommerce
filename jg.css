@@ -99,7 +99,7 @@ body{
     border-radius: 5px;
     padding: 3px 10px;
     font-weight: bolder;
-    height: 50px;
+    height: 40px;
 }
 
 .form button:hover{
@@ -115,7 +115,7 @@ body{
     border-radius: 5px;
     padding: 3px 10px;
     font-weight: bolder;
-    width: 40vw;
+    width: 30vw;
     font-size: 35px;
 }
 
@@ -266,6 +266,7 @@ input[type="radio"]{
 .container-1 input[type="radio"]:checked + label::after{
     transform: rotate(190deg);
 }
+
 
 
 
