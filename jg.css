@@ -1,0 +1,268 @@
+*{
+    padding: 0%;
+    margin: 0;
+    float: none;
+}
+
+body{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-color: skyblue;
+}
+
+.section-1{
+    background: linear-gradient(rgba(0,0,0,0.7)), url(../images/img1.png);
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+.nav ul{
+    list-style: none;
+    height: 30px;
+
+}
+
+.searchbar{
+   width: 70vw;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;   
+    border: none;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    
+}
+
+.searchbtn{
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;   
+    border: none;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    
+}
+
+
+.nav li{
+    display: inline;
+    padding: 10px;
+
+}
+.nav a{
+    color: blanchedalmond;
+    text-transform: uppercase;
+}
+.header h1{
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: #303030;
+    background: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 5px;
+    
+
+}
+.header .mail a{
+    background-color: #fff;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 8px;
+    font-weight: bolder;
+}
+.header .mail a:hover{
+    background-color: blue;
+    color: beige;
+}
+.content-1 h2{
+    padding: 20px 20px;
+
+}
+
+.form {
+    color: skyblue;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.form button {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-weight: bolder;
+}
+
+.form button:hover{
+    background-color: palevioletred;
+    color: wheat;
+    transform:scale(11.5s);
+
+}
+
+.form input {
+
+    border: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-weight: bolder;
+}
+
+/**section 2**/
+
+#section-2{
+    border: 200px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-color: skyblue;
+
+}
+
+ .arrival h1{
+    background: transparent;
+    text-align: center;
+    background: #303030;
+    width: 200px;
+    overflow: hidden;
+    align-items: center;
+    color: aqua;
+    padding: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.items nav{
+    text-align: center;
+    color: aqua;
+}
+.shoe img{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+.bags img{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+
+}
+
+#section-3{
+    color: #fff;
+    padding: 10px;
+  
+
+
+}
+#section-3 h1{ 
+    text-decoration: underline;
+    margin-bottom: 5px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-color: skyblue;
+}
+
+#paragraph{
+    display: flex;
+}
+.paragraph{
+    border: 2px solid #fff;
+    width: 49%;
+    height: 255px;
+    
+
+    color: #fff;
+    padding: 5px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-color: skyblue;
+
+}
+
+
+.section-4{
+    margin: 10px;
+
+}
+ .container-1{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+
+
+.container-1 li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+
+
+    
+}
+
+li{
+    margin: 0px;
+}
+
+.container-1 li label{
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+     margin-bottom: 2px;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 5px;
+
+
+
+}
+
+.faq::after{
+    content: "+";
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+    padding-bottom: 30px;
+    
+
+
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.container-1 .prag{
+    background-color: #fff;
+    font-family: cursive;
+    border-radius: 5px;
+    max-height: 0px;
+    overflow: hidden;
+    font-weight: bold;
+    text-align: left;
+    transition: max-height 1.5s, padding 1.5s;
+}
+
+.container-1 input[type="radio"]:checked + label + .prag{
+     max-height:500px ;
+     padding: 25px 30px;
+    
+}
+.container-1 input[type="radio"]:checked + label::after{
+    transform: rotate(190deg);
+}
+
+
+
+
+

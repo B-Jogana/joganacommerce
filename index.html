@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOGANA 1</title>
+    <link rel="stylesheet" href="jg.css">
+</head>
+<body>
+    <section class="section-1">
+        <!--header start-->
+    <header class="header">
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home.</a></li>
+                <li><a href="#">About.</a></li>
+                <li><a href="#">Service.</a></li>
+                <li><a href="#">Contact.</a></li>
+            </ul><hr>
+              <h1>Search for Products</h1>
+    <input class="searchbar" id="searchBar" type="text" placeholder="Search product"> 
+    <button class="searchbtn" onclick="searchInput()">Search</button>
+    <pre id="displayBar"></pre>
+      
+    <button class="searchbtn" onclick="viewStock()">view stocklist</button>
+    <pre id="displayStock"></pre>
+        </nav>  
+            <h1> <i>WElcome to JOGANA Commercial website</i></h1>
+
+            <div class="mail">
+                <a href="mailto:bashiraliabdullahi@gmail.com">Mail-Us</a>
+            </div>
+    </header> 
+     <!--header end-->
+
+    <section class="content-1">
+
+        <h2>The purpose of all Business is to make profit, but bussiness is not only tp make money but to satisfy 
+            peoples needs.
+        </h2>
+    <form class="form">
+        <small>Enter your Email to register with us and explore your potentialilty</small>
+        <div class="email">
+            <label for="Email">Email:</label>
+            <input type="text" name="Email" placeholder="Enter your email" >
+            <button class="button" type="submit">Get Start</button>
+        </div>
+    </form>
+    </section>
+    </section>
+
+    <section id="section-2">
+        <div class="arrival">
+            <div id="h1">
+                <h1>New Arrival</h1><hr>
+            </div>    
+            
+                <div class="items shoe">
+                    <nav><h2>Shoes</h2                        >
+                        <small><s>$45</s></small><h3>$3.6</h3></nav> 
+                        <img src="Shoe1.png" width="25%">
+                        <img src="shoe2.png" width="20%">
+                        <img src="shoe3.png" width="25%">
+                        <img src="shoe4.png" width="25%">
+                
+                      
+                </div> <hr>                                         
+                     
+
+                <div class="items bags">
+                    <nav><h2>School Bags</h2                        >
+                       <small><s>$10</s></small> <h3>$2.7</h3></nav>
+                <img src="bag2.png" width="25%">
+                 <img src="bag3.png" width="20%">
+                 <img src="bag4.png" width="20%">
+                 <img src="bag4.png" width="20%"> 
+
+
+
+        </div>
+    </section><hr>
+    
+    <main>
+        <section id="section-3">
+            <h1>some marketing strategies</h1>
+            <div id="paragraph">
+            <div class="paragraph pra-1">
+                <h2> Know Your Audience Deeply</h2>
+               <p> Marketing begins with understanding—not just knowing
+                who your audience is, but why they act, what they value, and
+                how they make decisions. You don’t sell a product; you solve a
+                problem or fulfill a desire. Research-driven insights about
+                demographics, behavior, and emotion arethe foundation for a
+                compelling message. When you tailor your language and content
+                to resonate with their identity and needs, conversion becomes 
+                a conversation, not a pitch.</p>
+            </div>
+            
+            <div class="paragraph pra-2">  
+               <h2>Focus on Value, Not Just Features</h2> 
+               <p>People don’t buy features—they buy results. Highlighting specs and
+                 technical capabilities is fine, but what truly converts is showing 
+                 the transformation your product or service brings. Whether it’s saving
+                  time, increasing confidence, or making life easier, value-driven 
+                  marketing creates emotional connection. Position your offer as a 
+                  bridge from where your customer is to where they want to be.</p>
+            </div>
+            </div>
+        </section>
+        <div class="clr"></div><hr>
+l
+        <section class="section-4">
+            <h1>QUESTIONS</h1>
+            <div class="container-1">
+                <ul>
+                    <li>
+                        <input type="radio" name="radio" id="radio-1">
+                        <label class="faq"  for="radio-1">What is Marketing</label>
+                        <div class="prag">
+                        <p>Marketing is the process of identifying, creating, communicating, and delivering 
+                            value to a target audience in order to satisfy their needs and wants — and ultimately
+                            drive profitable customer action.In simpler terms: Marketing is how a business attracts
+                            and keeps customers by showing them why its product or service is valuable.</p>
+                        </div>    
+                    </li>
+
+                    <li>
+                        <input type="radio" name="radio" id="radio-2">
+                        <label class="faq"  for="radio-2">what is the core concept of marketing</label>
+                        <div class="prag">
+                        <p>Core Purpose:
+                            Marketing isn't just about selling — it's about building trust, solving problems,
+                             and creating value in a way that connects emotionally and logically with customers.</p>
+                        </div> 
+                    </li>
+
+                    <li>
+                        <input type="radio" name="radio" id="radio-3">
+                        <label class="faq"  for="radio-3">What are the key Elements of Marketing</label>
+                        <div class="prag">
+                       <h3>Key Elements of Marketing:</h3>
+                        <ul>
+                            <li>1.Market Research – Understanding what customers want and need.</li>                           
+                            <li>2.Product Development – Creating something that solves a problem or fulfills a desire.</li>                            
+                            <li>3.Promotion – Spreading the word through advertising, social media, etc.</li>
+                            <li>4.Sales Strategy – Convincing and helping customers make the purchase.</li>
+                            <li>5.Customer Engagement – Building relationships for long-term loyalty.</li>
+                        </ol>
+                        
+                        </div> 
+                    </li>
+                </ul>
+
+                
+                
+                
+
+            </div>
+
+        </section>
+    </main>
+    
+<div style="margin-top: 500;"></div>
+
+
+
+    <script>
+        let dataBase= [
+           
+            {product:"male shoes", price:4.5, Quality:"medium"},
+            {product:"jallabiya", price:20, Quality:"high"},
+            {product:"Abaya", price:50, Quality:"high"},
+            {product:"Electric bike", price:400.5, Quality:"high"},
+            {product:"I phone cover", price:3.5, Quality:"high"},
+            {product:"Phone battery", price:2, Quality:"----"},
+            {product:"i phone chager", price:4, Quality:"original"},
+            {product:"School Bags", price:4, Quality:"medium"},
+            {product:"Electric cooker", price:400.5, Quality:"high"},
+            {product:"Electric stove", price:400.5, Quality:"high"},
+
+
+           
+        ]
+             
+
+        //code for live search by passing query arguement
+        /* document.getElementById("searchBar").addEventListener("input", function(){
+            searchInput(this.value);
+
+         });*/
+
+        function searchInput(){
+            let target = document.getElementById('searchBar').value.trim().toLowerCase();                     
+            let output = document.getElementById('displayBar');
+            output.textContent += "";
+
+            let matchproduct = dataBase.filter(p =>
+               p.product.toLowerCase().includes(target) 
+            )
+
+            if (matchproduct.length > 0) {
+                matchproduct.forEach(p =>{
+                    output.textContent += `Product: ${p.product} - Price: ${p.price} - Quality: ${p.Quality}\n`
+                })
+            }
+             
+            else if (target !== ""){
+                output.textContent += "product not available\n"
+            }else {
+               output.textContent += "research products\n";
+            }
+        };
+
+            /*
+            let target = document.getElementById('searchBar').value.trim().toLowerCase();
+            let output = "";
+            let found = false
+
+
+            for (let i = 0; i < dataBase.length; i++){
+                if(dataBase[i].product.toLowerCase().includes(target)){
+                    output += `Product: ${dataBase[i].product} - Price: ${dataBase[i].price} - Quality: ${dataBase[i].Quality} \n`
+                    found= true;
+                    break;
+                }
+            }
+            if (!found) output += "product not available"
+            document.getElementById('displayBar').textContent = output;*/
+        
+         let dataBase_stock= [
+           
+            {product:" shoes", price:4.5, Quality:"medium"},
+            {product:"jallabiya", price:20, Quality:"high"},
+            {product:"Abaya", price:50, Quality:"high"},
+            {product:"Electric materials", price:400.5, Quality:"high"},
+            {product:"phone accesories", price:3.5, Quality:"high"},
+            {product:"School Bags", price:4, Quality:"medium"},
+           
+        ]
+        function viewStock(){
+            let records = document.getElementById('displayStock');
+
+            dataBase_stock.forEach(d =>{
+                let p = document.createElement('p');
+                p.textContent = `Product: ${d.product} `;
+                records.appendChild(p)
+            })
+        }
+        
+        
+
+    </script>    
+</body>
+</html>
